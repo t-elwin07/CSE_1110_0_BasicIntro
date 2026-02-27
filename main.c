@@ -42,7 +42,7 @@ printf("number of miles: %d \n", total/InToMile);
     printf("the number squared is: %d \n", number*number);
     printf("the number raised to the power of 5 is: %f \n", pow(number, 5));
     printf("the square root of the number is: %f \n", sqrt(number));
-    printf("the number multiplied by Pi is: %f \n", number*M_PI);
-    printf("the square root of 2 is: %f \n", M_SQRT2);
+    printf("the number multiplied by Pi is: %lf \n", number*M_PI);
+    printf("the square root of 2 is: %lf \n", M_SQRT2);
     return 0;
 }
